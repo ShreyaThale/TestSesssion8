@@ -33,7 +33,7 @@ namespace UnitTesting
             int Id = 1;
 
             //Act
-            var result = _bookController.GetBookById(12);
+            var result = _bookController.GetBookById(1);
 
             //Assert
             Assert.IsType<OkObjectResult>(result as OkObjectResult);
